@@ -25,7 +25,7 @@ def clean_folder(folder_path):
 
 if __name__ =="__main__":
     print("Desktop Sorter Script")
-    folder_path = '/Users/renjit_joseph/Documents/SortDemo'
+    folder_path = '/Users/renjit_joseph/Downloads/'
     if os.path.isdir(folder_path):
         clean_folder(folder_path)
         print("Sorting Complete")
